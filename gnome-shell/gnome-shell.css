@@ -1,0 +1,113 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+stage {
+  font-family: Trebuchet MS, Cantarell, Sans-Serif;
+  font-size: 10pt; }
+
+.button:focus {
+  border-color: #B52121; }
+
+#panel {
+  background-color: rgba(10,10,9,1); }
+
+#panel .panel-button:active, #panel .panel-button:overview,
+#panel .panel-button:focus, #panel .panel-button:checked {
+  background-color: rgba(10, 10, 9, 1);
+  box-shadow: inset 0 -2px 0px #B52121;
+  color: white; }
+
+StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
+  background-color: #B52121; }
+
+.slider {
+  height: 5px;
+  -slider-height: 3px;
+  -slider-active-background-color: #B52121;
+  -slider-active-border-color: #B52121; }
+
+/* Switches */
+.toggle-switch {
+  width: 72px;
+  height: 21px;
+  background-size: contain; }
+
+.toggle-switch-us {
+  background-image: url("toggle-off.png"); }
+
+.toggle-switch-us:checked {
+  background-image: url("toggle-on.png"); }
+
+.toggle-switch-intl {
+  background-image: url("toggle-off.png"); }
+
+.toggle-switch-intl:checked {
+  background-image: url("toggle-on.png"); }
+
+  /*.popup-menu {
+    background-color: rgba(10,10,9,1);
+  }
+  .popup-menu-boxpointer {
+  background-color: rgba(10,10,9,1);
+  border-color: #B52121;
+  }
+*/
+
+.popup-menu-boxpointer,
+.candidate-popup-boxpointer {
+    -arrow-border-radius: 5px;
+    -arrow-background-color: rgba(10,10,9,0.97);
+    -arrow-border-width: 0px;
+    -arrow-border-color: #B52121;
+    -arrow-base: 24px;
+    -arrow-rise: 11px;
+}
+
+.popup-submenu-menu-item:open {
+    background-color: #0A0A09;
+}
+
+.popup-sub-menu {
+    background-gradient-start: rgba(10,10,9,0.9);
+}
+
+.popup-menu .popup-menu-item:active {
+  background-color: #B52121; }
+
+.popup-separator-menu-item {
+  border-color: #2d2d2d; }
+
+.switcher-list .item-box:selected {
+  background-color: #B52121; }
+
+.ws-switcher-active-up, .ws-switcher-active-down {
+  background-color: #B52121; }
+
+.calendar-day-base:active {
+  background-color: #B52121; }
+
+.calendar-day-with-events {
+  background-image: url("calendar-today.svg"); }
+
+.datemenu-today-button:active,
+.world-clocks-button:active,
+.message-list-section-title:active {
+  background-color: #B52121; }
+
+.system-menu-action:active {
+  background-color: #B52121; }
+
+.nm-dialog-item:selected {
+  background-color: #B52121; }
+
+.app-well-app-running-dot {
+  background-color: #B52121; }
+
+.workspace-thumbnail-indicator {
+  border: 4px solid #B52121; }
+
+.window-clone-border {
+  border: 4px solid #B52121;
+  box-shadow: inset 0px 0px 0px 1px #B52121; }
+
+.window-caption:hover {
+  background-color: #B52121; }
